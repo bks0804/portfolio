@@ -1,0 +1,112 @@
+/* Bio */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.name {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+}
+
+/* Projects */
+.projects-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+#projects {
+  display: none;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card.skeleton .skeleton-img,
+.card.skeleton .skeleton-text {
+  background-color: #f2f2f2;
+}
+
+.card.skeleton .skeleton-img {
+  width: 100%;
+  height: 150px;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card.skeleton .skeleton-text {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.card p a {
+  color: blue;
+  text-decoration: underline;
+}

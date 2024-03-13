@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Navbar CSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+  /* Adding bottom shadow */
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-subContainer {
+  display: flex;
+  align-items: last baseline;
+  gap: 40px;
+}
+
+.navbar-logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navbar-menues {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.navbar-menu-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-menu-link.active {
+  text-decoration: underline;
+}
+
+.download-cv-button button {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: burlywood;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue;
+  border-top: 1px solid #cfcfcf;
+}
+
+@media screen and (max-width:560px) {
+  header{
+    align-items: normal;
+  }
+
+  .navbar-subContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
