@@ -4,35 +4,35 @@ const projects = [
     img: "assets/projects-images/music-player.png",
     desc: "",
     technology: [],
-    link: "/project/music-player/index.html",
+    link: "/portfolio/project/music-player/index.html",
   },
   {
     title: "Tic Tac Toe Game",
     img: "assets/projects-images/tic-tac-toe-game.png",
     desc: "",
     technology: [],
-    link: "/project/tic-tac-toe-game/index.html"
+    link: "/portfolio/project/tic-tac-toe-game/index.html"
   },
   {
     title: "Analog Clock",
     img: "assets/projects-images/analog-clock.png",
     desc: "",
     technology: [],
-    link: "/project/analog-clock/index.html"
+    link: "/portfolio/project/analog-clock/index.html"
   },
   {
     title: "Moving Car Game",
     img: "assets/projects-images/moving-car-game.png",
     desc: "",
     technology: [],
-    link: "/project/moving-car-game/index.html"
+    link: "/portfolio/project/moving-car-game/index.html"
   },
   {
     title: "Dragon Game",
     img: "assets/projects-images/dragon-game.png",
     desc: "",
     technology: [],
-    link: "/project/dragon-game/index.html"
+    link: "/portfolio/project/dragon-game/index.html"
   },
 ];
 
